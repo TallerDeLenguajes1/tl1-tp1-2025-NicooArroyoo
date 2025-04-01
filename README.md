@@ -56,3 +56,17 @@ Añadir una línea específica en el archivo .gitignore para excluir el archivo 
 - **Notas**
     - Si el archivo está en un subdirectorio, especificar la ruta relativa (ej: carpeta/ignorado.txt).
     - Usar *.txt si deseas ignorar todos los archivos con extensión .txt.
+
+----
+
+# Respuestas punto g
+
+1. **Resultados iguales en puntos 2 y 3**:  
+  El puntero almacena la dirección de memoria de la variable a la que apunta, por lo que ambos muestran la misma ubicación física.
+
+2. **Resultado punto 4**:  
+   Es diferente a los anteriores porque muestra la dirección de memoria **del propio puntero** (donde está almacenado el puntero como variable).
+
+3. **Diferencia fundamental**:  
+   - Puntos 2-3: Dirección de la variable original  
+   - Punto 4: Dirección donde se guarda el puntero en memoria
